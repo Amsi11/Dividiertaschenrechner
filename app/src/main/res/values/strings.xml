@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dividiertaschenrechner</string>
+    <string name="button">Dividieren</string>
 </resources>
