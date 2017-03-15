@@ -37,4 +37,19 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    public void reset(View v){
+
+        //Verweisen auf die 3 Felder von der App
+        EditText dividend=(EditText)findViewById(R.id.dividendeingabe);
+        EditText divisor=(EditText)findViewById(R.id.divisoreingabe);
+        EditText output=(EditText)findViewById(R.id.output);
+
+        //Felder leer machen
+        dividend.setText("");
+        divisor.setText("");
+        output.setText("");
+
+
+    }
 }
