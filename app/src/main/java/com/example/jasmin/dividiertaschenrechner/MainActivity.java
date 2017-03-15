@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             //Errormeldung, wenn man versucht durch 0 zu dividieren
             output.setText("Durch 0 nicht dividieren!");
         }else if(divid==0){
-            //Ausgabe einer 0 bei z. B. 0/10, um das 0.0 wegen der Kommerstellen zu umgehen
+            //Ausgabe einer 0 bei z. B. 0/10, um das 0.0 wegen der Kommastellen zu umgehen
             output.setText("0");
         }else{
             //Ausgabe in Feld Output generieren
